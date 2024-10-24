@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="relative min-h-screen w-full">
+    <div className="relative min-h-screen w-full font-[family-name:var(--font-meisterr)]">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
@@ -22,16 +22,19 @@ export default function Home() {
       </div>
 
       {/* Main content */}
-      <main className="relative z-10 flex flex-col items-center justify-center min-h-screen text-center text-white gap-16 text-opacity-80">
-        <h1 className="text-5xl md:text-4xl font-bold">
+      <main className="relative z-10 flex flex-col items-center justify-center min-h-screen text-center text-white gap-8 text-opacity-80">
+        <h1 className="text-5xl md:text-4xl font-bold opacity-80 font-[family-name:var(--font-meisterb)]">
           THE MINTING PERIOD HAS EXPIRED
         </h1>
-        <p className="mt-2 max-w-lg mx-auto">
-          Click the button below to learn more about Magomed Dovjenko's one-of-a-kind artwork that was inspired by 9556 Nights of Exploration
+        <p className="mt-2 max-w-lg mx-auto opacity-100">
+          Click the button below to learn more about Magomed Dovjenko's one-of-a-kind artwork that was inspired by 9556 Nights of Exploration.
         </p>
         {/* Action Button with Link */}
         <Link href="https://de.jagermeister.com/kampagnen/9556" passHref>
-          <button className="px-6 py-3 bg-jmorange text-white font-bold rounded-full opacity-80 hover:opacity-100 transition ease-out hover:scale-110" style={{ backgroundColor: "#db6b30" }}>
+          <button
+            className="px-6 py-3 bg-jmorange text-white font-bold rounded-full opacity-60 hover:opacity-100 transition ease-out hover:scale-110"
+            style={{ backgroundColor: "#db6b30" }}
+          >
             Learn More
           </button>
         </Link>
