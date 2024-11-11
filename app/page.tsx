@@ -30,7 +30,7 @@ export default function Home() {
           Click the button below to learn more about Magomed Dovjenko's one-of-a-kind artwork that was inspired by 9556 Nights of Exploration.
         </p>
         {/* Action Button with Link */}
-        <Link href="https://de.jagermeister.com/kampagnen/9556" passHref>
+        <Link href="https://www.jagermeister.com/exploration/9556" passHref>
           <button
             className="px-6 py-3 bg-jmorange text-white font-bold rounded-full opacity-60 hover:opacity-100 transition ease-out hover:scale-110"
             style={{ backgroundColor: "#db6b30" }}
