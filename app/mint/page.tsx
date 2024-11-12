@@ -35,7 +35,7 @@ export default function Home() {
             className="px-6 py-3 bg-jmorange text-white font-bold rounded-full opacity-60 hover:opacity-100 transition ease-out hover:scale-110"
             style={{ backgroundColor: "#db6b30" }}
           >
-            Learn More
+            Learn More!
           </button>
         </Link>
       </main>
